@@ -1,16 +1,16 @@
-# PyTorch Weather Prediction
+# :thermometer: PyTorch Weather Prediction
 
-## Descripción
+## :memo: Descripción
 Este proyecto utiliza una red neuronal LSTM en PyTorch para predecir temperaturas máximas y mínimas a partir de datos climáticos históricos. Se basa en datos recopilados diariamente durante el año 2024, que incluyen información sobre temperatura, precipitación, viento y humedad.
 
-## Características
+## 	:sparkles: Características
 - Implementación de un modelo de **red neuronal LSTM** para la predicción de series temporales.
 - Preprocesamiento de datos climáticos desde archivos CSV.
 - Normalización de datos con **MinMaxScaler** de `sklearn`.
 - Entrenamiento del modelo con PyTorch.
 - Visualización de los resultados mediante gráficos.
 
-## Requisitos
+## :pushpin: Requisitos
 Para ejecutar este proyecto, es necesario tener instaladas las siguientes bibliotecas:
 
 - Python 3.8+
@@ -29,7 +29,7 @@ Instala las dependencias con:
 pip install -r requirements.txt
 ```
 
-## Uso
+## 	:rocket: Uso
 
 1. Coloca el archivo de datos en la carpeta data/.
 
@@ -40,7 +40,7 @@ python main.py
 
 3. El modelo entrenará y generará predicciones de temperaturas máximas y mínimas.
 
-## Datos
+## 	:bar_chart: Datos
 
 Los datos meteorológicos provienen de registros diarios e incluyen:
 
@@ -54,7 +54,7 @@ Los datos meteorológicos provienen de registros diarios e incluyen:
 
 - `humedad`: Humedad relativa (%)
 
-## Estructura del repositorio
+## :file_folder: Estructura del repositorio
 
 ```
 📂 pytorch-weather-prediction
@@ -67,27 +67,27 @@ Los datos meteorológicos provienen de registros diarios e incluyen:
 
 ```
 
-## Notas
+## :mag: Notas
 * El modelo usa una ventana de 30 días para predecir las temperaturas.
 
 * La normalización se aplica para mejorar el rendimiento del modelo.
 
-## Resultados
+## :chart_with_upwards_trend: Resultados
 Tras el entrenamiento, el modelo logra aprender tendencias en la temperatura y genera predicciones razonables basadas en los datos históricos.
 
 Ejemplo de gráfico de predicciones:
 
 ![Predicción de temperaturas](https://github.com/pcanadas/pytorch-weather-prediction/blob/main/Figure_1.png)
 
-## Futuras mejoras
+## :construction: Futuras mejoras
 - Incluir más variables climáticas para mejorar la precisión.
 - Optimizar los hiperparámetros del modelo.
 - Implementar una API para consultar predicciones en tiempo real.
 
-## Autor
+## 	:bust_in_silhouette: Autor
 **Patricia Cañadas**  
 Si tienes preguntas o sugerencias, no dudes en abrir un issue en el repositorio.
 
-## Licencia
+## 	:scroll: Licencia
 Este proyecto está bajo la licencia MIT.
 
